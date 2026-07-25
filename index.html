@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>個人介紹 | One Page Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#home">My<span>Intro</span></a>
+
+    <button class="menu-toggle" type="button" aria-label="開啟選單">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav">
+      <a href="#home">首頁</a>
+      <a href="#about">關於我</a>
+      <a href="#contact">聯絡我</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Personal Website</p>
+        <h1>你好，我是 <span>xNone</span></h1>
+        <p class="hero-text">
+          我喜歡學習新事物、製作有趣的作品，也正在累積網頁設計與程式開發能力。
+          這是一個簡潔、暗色、有個人風格的一頁式介紹網站。
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#about">關於我</a>
+          <a class="btn secondary" href="#contact">聯絡我</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal" data-discord-id="973189415558086737">
+        <div class="profile-orbit">
+          <img class="profile-photo" src="" alt="Discord avatar" data-discord-avatar>
+        </div>
+        <div class="discord-info">
+          <p class="discord-name" data-discord-name>xNone</p>
+          <p class="discord-activity" data-discord-activity>Loading Discord status...</p>
+        </div>
+        <div class="status-card" data-discord-status="offline">
+          <span class="status-dot"></span>
+          <span data-discord-status-text>Offline</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="section-title reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>關於我</h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="glass-card reveal">
+          <h3>我是誰</h3>
+          <p>
+            我是一位正在學習網頁設計與程式開發的學生。平常喜歡嘗試不同工具，
+            也會把想法做成實際可以看到、可以使用的小作品。
+          </p>
+        </article>
+
+        <article class="glass-card reveal">
+          <h3>我的興趣</h3>
+          <p>
+            我對科技、設計、影片剪輯和創意專案很有興趣。比起只看教學，
+            我更喜歡邊做邊學，從錯誤中慢慢進步。
+          </p>
+        </article>
+
+        <article class="glass-card reveal">
+          <h3>我的目標</h3>
+          <p>
+            希望未來能做出更完整、更有質感的網站，也想持續提升 HTML、CSS、
+            JavaScript 和專案規劃能力。
+          </p>
+        </article>
+      </div>
+
+      <div class="skills reveal">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Design</span>
+        <span>Learning</span>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="contact-panel reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>聯絡我</h2>
+          <p>
+            如果你想認識我、討論作品，或只是想打聲招呼，都可以透過下面的方式聯絡我。
+          </p>
+        </div>
+
+        <div class="contact-list">
+          <a href="mailto:bingnuoowobb@gmail.com">Email</a>
+          <a href="https://discord.com/users/973189415558086737" aria-label="Discord">Discord</a>
+          <a href="https://github.com/xNoneXD" aria-label="GitHub">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> xNone. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
